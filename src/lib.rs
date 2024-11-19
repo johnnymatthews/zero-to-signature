@@ -28,7 +28,7 @@ pub struct UserConfig {
 pub struct AuxData {
 }
 
-const saved_password: &str = "PASSword";
+const saved_password: &str = "P455W()Rd";
 
 pub struct ProvideAPassword;
 

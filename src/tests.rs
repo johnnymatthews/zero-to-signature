@@ -4,7 +4,7 @@ use alloc::string::String;
 #[test]
 fn password_correct() {
     let signature_request = SignatureRequest {
-        message: b"password".to_vec(),
+        message: b"P455W()Rd".to_vec(),
         auxilary_data: None,
     };
 
